@@ -356,7 +356,7 @@ int main(int argc, char** argv)
     // These duplicate the defaults for each hint
     int platform = GLFW_ANY_PLATFORM;
     int client_api = GLFW_OPENGL_API;
-    int context_major = 1;
+    int context_major = 3;
     int context_minor = 0;
     int context_release = GLFW_ANY_RELEASE_BEHAVIOR;
     int context_creation_api = GLFW_NATIVE_CONTEXT_API;

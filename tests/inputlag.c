@@ -199,7 +199,7 @@ int main(int argc, char** argv)
         height = 480;
     }
 
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
     glfwWindowHint(GLFW_SCALE_TO_MONITOR, GLFW_TRUE);

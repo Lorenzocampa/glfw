@@ -130,7 +130,7 @@ int main(int argc, char** argv)
         printf("Requesting that MSAA not be available\n");
 
     glfwWindowHint(GLFW_SAMPLES, samples);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
     window = glfwCreateWindow(800, 400, "Aliasing Detector", NULL, NULL);

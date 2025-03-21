@@ -373,7 +373,7 @@ int main(void)
         standard_cursors[i] = glfwCreateStandardCursor(shapes[i]);
     }
 
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
     window = glfwCreateWindow(640, 480, "Cursor Test", NULL, NULL);
